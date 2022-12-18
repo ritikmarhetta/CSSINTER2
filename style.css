@@ -1,0 +1,12 @@
+.ani
+{
+    border: 2px solid salmon;
+    width: 50px;
+    height: 4cm;
+    background-color: darkslateblue;
+    animation: ani 1s linear infinite;
+}
+@keyframes ani {
+100% {
+    transform: rotate(360deg) }
+}
